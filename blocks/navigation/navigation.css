@@ -1,0 +1,13 @@
+.navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 320px) {
+  .navigation {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
