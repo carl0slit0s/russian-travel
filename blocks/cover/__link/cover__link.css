@@ -58,14 +58,14 @@
 
 @media screen and (max-width: 560px) {
   .cover__link {
-    max-width: 100%;
+    max-width: 560px;
     min-height: 300px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__link {
-    max-width: 100%;
+    max-width: 320px;
     min-height: 200px;
   }
 }
