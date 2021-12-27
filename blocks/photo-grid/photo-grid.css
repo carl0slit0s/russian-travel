@@ -2,35 +2,36 @@
   max-width: 1184px;
   margin: 0 auto 92px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 16px;
   padding: 0 48px;
-
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1183px) {
   .photo-grid {
     gap: 14px;
-    max-width: 928px;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
     gap: 16px;
-    max-width: 720px;
     padding: 0 24px;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 628px) {
   .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(191px, 1fr));
     gap: 12px;
-    max-width: 320px;
     padding: 0 16px;
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   }
 }
+
+/* @media screen and (max-width: 425px) {
+  .photo-grid {
+    gap: 12px;
+    max-width: 320px; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+} */
