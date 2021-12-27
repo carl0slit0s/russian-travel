@@ -8,12 +8,6 @@
   margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1183px) {
-  .lead {
-    /* max-width: calc(100% - 48px * 2); */
-  }
-}
-
 @media screen and (max-width: 767px) {
   .lead {
     max-width: 100%;

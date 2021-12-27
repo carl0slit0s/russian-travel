@@ -16,10 +16,24 @@
           class="header__logo logo"
         />
         <!-- Радио кнопки? -->
-        <div class="header__langs">
+        <form class="form-lang">
+          <label class="form-lang__label" for="ru">
+            <input class="form-lang__link link" type="radio" name="language" id="ru" value="ru" checked>
+            <span class="form-lang__activator"></span>
+            <span class="">Ru</span>
+          </label>
+
+          <label class="form-lang__label" for="en">
+            <input class="form-lang__link link" type="radio" name="language" id="en" value="en">
+            <span class="form-lang__activator"></span>
+            <span class="">En</span>
+          </label>
+        </form>
+
+        <!-- <div class="header__langs">
           <a class="header__lang-link link" href="#">Ru</a>
           <a class="header__lang-link link" href="#">En</a>
-        </div>
+        </div> -->
       </header>
 
       <main>

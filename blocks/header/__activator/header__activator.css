@@ -1,0 +1,19 @@
+.header__activator {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  left: 30px;
+}
+
+.header__lang-link:checked + .header__activator {
+  border-bottom: 2px solid #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .header__activator {
+    width: 22px;
+    height: 20px;
+  }  
+}
