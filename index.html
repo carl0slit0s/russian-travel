@@ -2,12 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Шемякин Алексей" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
   </head>
-  <body class="conteiner">
+  <body class="content">
     <div class="page">
       <header class="header">
         <img
@@ -16,7 +16,7 @@
           class="header__logo logo"
         />
         <!-- Радио кнопки? -->
-        <form class="form-lang">
+        <!-- <form class="form-lang">
           <label class="form-lang__label" for="ru">
             <input class="form-lang__link link" type="radio" name="language" id="ru" value="ru" checked>
             <span class="form-lang__activator"></span>
@@ -28,12 +28,12 @@
             <span class="form-lang__activator"></span>
             <span class="">En</span>
           </label>
-        </form>
+        </form> -->
 
-        <!-- <div class="header__langs">
+        <div class="header__langs">
           <a class="header__lang-link link" href="#">Ru</a>
           <a class="header__lang-link link" href="#">En</a>
-        </div> -->
+        </div>
       </header>
 
       <main>
@@ -174,7 +174,12 @@
               />
               <div class="place__website">
                 <p class="place__url-heading">URL</p>
-                <a href="#" class="place__link">park-kosa.ru</a>
+                <a
+                  href="http://park-kosa.ru"
+                  class="place__link"
+                  target="_blank"
+                  >park-kosa.ru</a
+                >
               </div>
               <div class="place__paragraphs">
                 <p class="place__paragraph">
@@ -203,7 +208,12 @@
               />
               <div class="place__website">
                 <p class="place__url-heading">URL</p>
-                <a href="#" class="place__link">National Geographic</a>
+                <a
+                  href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                  class="place__link"
+                  target="_blank"
+                  >National Geographic</a
+                >
               </div>
               <div class="place__paragraphs">
                 <p class="place__paragraph">
@@ -232,7 +242,12 @@
               />
               <div class="place__website">
                 <p class="place__url-heading">URL</p>
-                <a href="#" class="place__link">Facebook</a>
+                <a
+                  href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                  class="place__link"
+                  target="_blank"
+                  >Facebook</a
+                >
               </div>
               <div class="place__paragraphs">
                 <p class="place__paragraph">
@@ -261,7 +276,12 @@
               />
               <div class="place__website">
                 <p class="place__url-heading">URL</p>
-                <a href="#" class="place__link">https://vk.com/baikalmile</a>
+                <a
+                  href="https://vk.com/baikalmile"
+                  class="place__link"
+                  target="_blank"
+                  >https://vk.com/baikalmile</a
+                >
               </div>
               <div class="place__paragraphs">
                 <p class="place__paragraph">
@@ -284,12 +304,17 @@
               <h2 class="place__title">Карелия</h2>
               <img
                 src="./images/places/__image.jpg"
-                alt=""
+                alt="Крупная река в лесном массиве"
                 class="place__image"
               />
               <div class="place__website">
                 <p class="place__url-heading">URL</p>
-                <a href="#" class="place__link">http://vodlozero.ru/</a>
+                <a
+                  href="Карелия: http://vodlozero.ru"
+                  class="place__link"
+                  target="_blank"
+                  >http://vodlozero.ru/</a
+                >
               </div>
               <div class="place__paragraphs">
                 <p class="place__paragraph">
@@ -310,7 +335,7 @@
         </section>
 
         <section class="cover">
-          <a href="#" class="cover__link link">
+          <a href="#" class="cover__link link" target="_blank">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
@@ -324,23 +349,49 @@
         <nav>
           <ul class="navigation">
             <li>
-              <a class="navigation__link link" href="#">Карты</a>
+              <a
+                class="navigation__link link"
+                href="https://yandex.ru/maps"
+                target="_blank"
+                >Карты</a
+              >
             </li>
 
             <li>
-              <a class="navigation__link link" href="#"> Погода</a>
+              <a
+                class="navigation__link link"
+                href="https://yandex.ru/pogoda"
+                target="_blank"
+              >
+                Погода</a
+              >
             </li>
 
             <li>
-              <a class="navigation__link link" href="#">Расписание</a>
+              <a
+                class="navigation__link link"
+                href="https://rasp.yandex.ru"
+                target="_blank"
+                >Расписание</a
+              >
             </li>
 
             <li>
-              <a class="navigation__link link" href="#">Календарь</a>
+              <a
+                class="navigation__link link"
+                href="https://calendar.yandex.ru"
+                target="_blank"
+                >Календарь</a
+              >
             </li>
 
             <li>
-              <a class="navigation__link link" href="#">Путешествия</a>
+              <a
+                class="navigation__link link"
+                href="https://travel.yandex.ru"
+                target="_blank"
+                >Путешествия</a
+              >
             </li>
           </ul>
         </nav>

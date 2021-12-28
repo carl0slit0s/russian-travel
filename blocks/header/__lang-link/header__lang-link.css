@@ -1,11 +1,23 @@
 .header__lang-link {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 30px 0 0);
+  /* width: 32px;
+  height: 28px; */
+  font-size: 24px;
+  line-height: 28px;
+  /* text-align: right; */
 }
 
-.header__lang-link:checked + .header__activator {
-  border-bottom: 2px solid #fff;
+.header__lang-link:first-child {
+  margin-right: 18px;
+  border-bottom: 1px solid #fff;
+}
+
+/* .header__lang-link:visited {
+  text-decoration: underline;
+} */
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
