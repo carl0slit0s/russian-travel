@@ -1,5 +1,10 @@
 .link {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #fff;
   font-weight: 400;
+}
+
+.link:hover {
+  opacity: .8;
+  transition: ease-in-out .3s;
 }

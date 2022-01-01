@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: minmax(min-content, 48%) 1fr;
+  grid-template-columns: minmax(min-content, 47%) 1fr;
   gap: 48px 40px;
   grid-template-areas:
     "title website"
@@ -32,22 +32,3 @@
       "text";
   }
 }
-
-/* @media screen and (max-width: 767px) {
-  .place {
-    gap: 32px 28px;
-    grid-template-columns: minmax(min-content, 340px) 1fr;
-  }
-} */
-
-/* @media screen and (max-width: 425px) {
-  .place {
-    row-gap: 32px;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "title"
-      "website"
-      "image"
-      "text";
-  }
-} */

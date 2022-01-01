@@ -8,9 +8,21 @@
   margin-bottom: 92px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1183px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1123px) {
   .lead {
     max-width: 100%;
     margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    margin-bottom: 64px;
   }
 }

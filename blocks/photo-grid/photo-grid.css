@@ -28,6 +28,12 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    margin-bottom: 64px;
+  }
+}
+
 /* @media screen and (max-width: 425px) {
   .photo-grid {
     gap: 12px;

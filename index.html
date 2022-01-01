@@ -11,29 +11,23 @@
     <div class="page">
       <header class="header">
         <img
-          src="./images/__logo.png"
+          src="./images/__logo.svg"
           alt="лого. Карта россии в миниатюре"
           class="header__logo logo"
         />
-        <!-- Радио кнопки? -->
-        <!-- <form class="form-lang">
-          <label class="form-lang__label" for="ru">
-            <input class="form-lang__link link" type="radio" name="language" id="ru" value="ru" checked>
-            <span class="form-lang__activator"></span>
-            <span class="">Ru</span>
-          </label>
 
-          <label class="form-lang__label" for="en">
-            <input class="form-lang__link link" type="radio" name="language" id="en" value="en">
-            <span class="form-lang__activator"></span>
-            <span class="">En</span>
-          </label>
-        </form> -->
-
-        <div class="header__langs">
-          <a class="header__lang-link link" href="#">Ru</a>
-          <a class="header__lang-link link" href="#">En</a>
-        </div>
+        <ul class="header__langs">
+          <li>
+            <a
+              class="header__lang-link header__lang-link_selected link"
+              href="#"
+              >Ru</a
+            >
+          </li>
+          <li>
+            <a class="header__lang-link link" href="#">En</a>
+          </li>
+        </ul>
       </header>
 
       <main>
@@ -67,104 +61,92 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+            <li>
+              <span class="intro__span-accent"
+                >Объектов природного наследия ЮНЕСКО</span
+              >
+              12
+            </li>
+            <li>
+              <span class="intro__span-accent"
+                >Объектов культурного наследия ЮНЕСКО</span
+              >
+              16
+            </li>
+            <li>
+              <span class="intro__span-accent">Природных заповедников</span> 105
+            </li>
+            <li><span class="intro__span-accent">Аэропортов</span> 241</li>
           </ul>
         </section>
 
         <section class="photo-grid">
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-1.jpg"
-              alt="побережье в горах"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-2.jpg"
-              alt="гора"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-3.jpg"
-              alt="горы с высока"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-4.jpg"
-              alt="дорожный знак на фоне волнорезов"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-5.jpg"
-              alt="заснеженные горные"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-6.jpg"
-              alt="пляж холодного моря"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-7.jpg"
-              alt="автомобиль на треснутом льду"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-8.jpg"
-              alt="лес с высока"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-9.jpg"
-              alt="собака на стоге сена"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-10.jpg"
-              alt="горы под облаками"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item-11.jpg"
-              alt="окно купе поезда"
-            />
-          </figure>
-          <figure class="photo-grid__item">
-            <img
-              class="photo-grid__image"
-              src="./images/__item/__item.jpg"
-              alt="горы в облаках"
-            />
-          </figure>
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-11.jpg"
+            alt="окно купе поезда"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-10.jpg"
+            alt="горы под облаками"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-9.jpg"
+            alt="собака на стоге сена"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-8.jpg"
+            alt="лес с высока"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-7.jpg"
+            alt="автомобиль на треснутом льду"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-6.jpg"
+            alt="пляж холодного моря"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-5.jpg"
+            alt="заснеженные горные"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-4.jpg"
+            alt="дорожный знак на фоне волнорезов"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-3.jpg"
+            alt="горы с высока"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-2.jpg"
+            alt="гора"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item-1.jpg"
+            alt="побережье в горах"
+          />
+          <img
+            class="photo-grid__image"
+            src="./images/__item/__item.jpg"
+            alt="горы в облаках"
+          />
         </section>
 
-        <section>
+        <section class="places">
           <!-- придумать имя -->
-          <ul class="places">
+          <ul class="places__list">
             <li class="place places__item">
               <h2 class="place__title">Куршская коса</h2>
               <img
@@ -176,24 +158,26 @@
                 <p class="place__url-heading">URL</p>
                 <a
                   href="http://park-kosa.ru"
-                  class="place__link"
+                  class="place__link link"
                   target="_blank"
                   >park-kosa.ru</a
                 >
               </div>
               <div class="place__paragraphs">
                 <p class="place__paragraph">
-                  Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
-                  водных горизонта — спокойного Куршского залива с одной стороны
-                  и подёрнутого рябью волн Балтийского моря с другой. Уникальная
-                  природная зона на краю российского анклава.
+                  Здесь, посреди лесов и&nbsp;песчаных дюн, вы&nbsp;сможете
+                  увидеть два водных горизонта&nbsp;&mdash; спокойного Куршского
+                  залива с&nbsp;одной стороны и&nbsp;подёрнутого рябью волн
+                  Балтийского моря с&nbsp;другой. Уникальная природная зона
+                  на&nbsp;краю российского анклава.
                 </p>
                 <p class="place__paragraph">
-                  На этом Калининградская область не заканчивается. Для
-                  путешественника и исследователя там же по соседству — самая
-                  западная точка России, Балтийская коса, — и немецкое наследие
-                  россыпи небольших приморских городов. Атмосфера здешних мест
-                  исключает суету, окуная в спокойствие природы и запах
+                  На&nbsp;этом Калининградская область не&nbsp;заканчивается.
+                  Для путешественника и&nbsp;исследователя там&nbsp;же
+                  по&nbsp;соседству&nbsp;&mdash; самая западная точка России,
+                  Балтийская коса,&nbsp;&mdash; и&nbsp;немецкое наследие россыпи
+                  небольших приморских городов. Атмосфера здешних мест исключает
+                  суету, окуная в&nbsp;спокойствие природы и&nbsp;запах
                   стального, прохладного моря.
                 </p>
               </div>
@@ -210,7 +194,7 @@
                 <p class="place__url-heading">URL</p>
                 <a
                   href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                  class="place__link"
+                  class="place__link link"
                   target="_blank"
                   >National Geographic</a
                 >
@@ -244,7 +228,7 @@
                 <p class="place__url-heading">URL</p>
                 <a
                   href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                  class="place__link"
+                  class="place__link link"
                   target="_blank"
                   >Facebook</a
                 >
@@ -278,7 +262,7 @@
                 <p class="place__url-heading">URL</p>
                 <a
                   href="https://vk.com/baikalmile"
-                  class="place__link"
+                  class="place__link link"
                   target="_blank"
                   >https://vk.com/baikalmile</a
                 >
@@ -311,7 +295,7 @@
                 <p class="place__url-heading">URL</p>
                 <a
                   href="http://vodlozero.ru"
-                  class="place__link"
+                  class="place__link link"
                   target="_blank"
                   >http://vodlozero.ru/</a
                 >
@@ -335,11 +319,17 @@
         </section>
 
         <section class="cover">
-          <a href="#" class="cover__link link" target="_blank">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <a
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
+            class="cover__link link"
+            target="_blank"
+          >
+            <h2 class="cover__title">
+              До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
+            </h2>
             <p class="cover__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
+              По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash;
+              путешествие от&nbsp;столицы до Байкала на&nbsp;электричках.
             </p>
           </a>
         </section>

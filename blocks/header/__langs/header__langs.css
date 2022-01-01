@@ -4,4 +4,11 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 425px) {
+  .header__langs {
+    margin: 14px 0 0;
+  }
 }
