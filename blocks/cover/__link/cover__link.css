@@ -28,6 +28,7 @@
 }
 
 .cover__link:hover::before {
+  transition: .3s ease-in;
   opacity: 0.8;
 }
 
@@ -40,7 +41,6 @@
 
 @media screen and (max-width: 1023px) {
   .cover__link {
-    /* max-width: 768px; */
     min-height: 480px;
   }
 }
@@ -56,17 +56,3 @@
     min-height: 200px;
   }
 }
-
-/* @media screen and (max-width: 560px) {
-  .cover__link {
-    max-width: 560px;
-    min-height: 300px;
-  }
-} */
-
-/* @media screen and (max-width: 320px) {
-  .cover__link {
-    max-width: 320px;
-    min-height: 200px;
-  }
-} */

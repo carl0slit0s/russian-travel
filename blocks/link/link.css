@@ -6,5 +6,5 @@
 
 .link:hover {
   opacity: .8;
-  transition: ease-in-out .3s;
+  transition: ease-in .3s;
 }
